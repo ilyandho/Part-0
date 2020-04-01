@@ -1,0 +1,15 @@
+title Single Page Application Add Note
+
+note over Browser 
+After the html and the data is loaded 
+and the user enters a note in the form
+after pressing Save, the flow is as follows
+end note
+note over Browser 
+Browser executes the javascript code 
+which displays the submitted note 
+and then sends the data to the Server
+end note
+Browser -->  Server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+
